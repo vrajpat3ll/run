@@ -15,7 +15,12 @@ You can command ChatGPT to make one yourself.
 - Go to environment variables and add this to your PATH.
 
 ### Linux
-- Find out yourselves, guys!
+```bash
+cd run
+chmod a+x './run.sh'
+alias run='./run.sh'
+```
+- Find out yourselves, guys! Please check before running run.sh!
 I tested this on a Windows machine.
 
 ---
