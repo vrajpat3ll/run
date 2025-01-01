@@ -5,6 +5,7 @@ for %%F in ("%filePath%") do (
     set "filename=%%~nF"  
     set "extension=%%~xF"
 )
-move "%filePath%" "C:\CODING\code\utils\command-line-tools\run\%filename%%extension%"
+@REM add your custom path here
+move "%filePath%" "C:\command-line-tools\%filename%%extension%"
 
 @REM alias %filename% "%filePath%"
